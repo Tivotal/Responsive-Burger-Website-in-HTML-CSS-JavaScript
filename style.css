@@ -157,7 +157,7 @@ section {
 
 .home {
   margin-top: 7rem;
-  background: url(../images/home-bg.png) no-repeat;
+  background: url(images/home-bg.png) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -186,7 +186,6 @@ section {
 }
 
 .service {
-  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   gap: 2rem;
@@ -222,7 +221,6 @@ section {
 }
 
 .menu .box-container {
-  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   gap: 2rem;
@@ -318,7 +316,6 @@ section {
 }
 
 .reviews .box-container {
-  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   gap: 2rem;
